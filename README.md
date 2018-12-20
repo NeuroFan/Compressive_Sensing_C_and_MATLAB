@@ -1,6 +1,6 @@
 Sparse Recovery Algorithms 
 
-Orthogonal Matching Persuits
+Orthogonal Matching Persuits,
 Iterative Hard Thresholding and
 Approximage Message Passing.
 implemented in both MATLAB and C. 
