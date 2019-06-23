@@ -1,36 +1,4 @@
-// ConsoleApplication4.cpp : Defines the entry point for the console application.
-//  if number_of_iteration is increased the quality of the recovery increased
-
-#include "math.h"
-#include <stdio.h>
-#include <stdlib.h>
-
-#define M 64
-#define N 224
-#define lambda 1.35 // lambda is determinded from exprimental data from RICE DSP github
-#define number_of_iterations 120
-
-int matMul(float *mat1, float *mat2, float *result, int m, int n, int q);
-int matMul_M(float *mat1, float *mat2, float *result, int m, int n, int q);
-int matMul_N(float *mat1, float *mat2, float *result, int m, int n, int q);
-int transpose(float *mat1, float *mat2, int m, int n);
-int matSUB(float *mat1, float *mat2, float *result, int m, int n);
-int matSUB(float *mat1, float *mat2, float *result, int m, int n);
-int matADD(float *mat1, float *mat2, float *result, int m, int n);
-float norm2(float *vec);
-int print(float *mat, int m, int n);
-float sum_array(float *arr, int m);
-float SNR(float *a, float *b, int Length);
-float MSE(float *a, float *b, int Length);
-
-
-float sign(float input)
-{
-	return (float)((0 < input) - (input < 0));
-}
-
-int main()
-{
+//Based on following MATLAB code
 	/*
 	Original Matlab Code
 	r = y;
@@ -43,6 +11,37 @@ int main()
 	end
 		x_hat = s;
 	end*/
+
+#include "math.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+#define M 64  // Number of measurement 
+#define N 224 // Number of samples
+#define lambda 1.35 // lambda is determinded from exprimental data from RICE DSP github
+#define number_of_iterations 120 //self defined!
+
+int matMul(float *mat1, float *mat2, float *result, int m, int n, int q);
+int matMul_M(float *mat1, float *mat2, float *result, int m, int n, int q); //Matrix multipication with M being fixed (for loop unrolling)
+int matMul_N(float *mat1, float *mat2, float *result, int m, int n, int q);
+int transpose(float *mat1, float *mat2, int m, int n);
+int matSUB(float *mat1, float *mat2, float *result, int m, int n); //Matrix subtraction
+int matADD(float *mat1, float *mat2, float *result, int m, int n); //Matrix addition
+float norm2(float *vec);
+int print(float *mat, int m, int n);
+float sum_array(float *arr, int m); //Sum of elements of a vector
+float SNR(float *a, float *b, int Length); //Signal to Noise ratio
+float MSE(float *a, float *b, int Length); //Mean square error
+
+
+float sign(float input)
+{
+	return (float)((0 < input) - (input < 0));
+}
+
+int main()
+{
+
 
 	float A[M][N];
 	int i,j,k,K;
