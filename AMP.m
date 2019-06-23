@@ -1,4 +1,5 @@
 function xhat=AMP(y,H,landa,iterAMP,m,n)
+%% y is measurement vector; H is measurement matrix, iterAMP is number of iterations, m and n are matrix dimentions
     r=y;
     s=zeros(n,1);
     sqM=sqrt(m);
