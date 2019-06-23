@@ -33,7 +33,7 @@ float sum_array(float *arr, int m); //Sum of elements of a vector
 float SNR(float *a, float *b, int Length); //Signal to Noise ratio
 float MSE(float *a, float *b, int Length); //Mean square error
 
-
+ 
 float sign(float input)
 {
 	return (float)((0 < input) - (input < 0));
