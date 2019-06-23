@@ -11,7 +11,7 @@
 	end
 		x_hat = s;
 	end*/
-
+ 
 #include "math.h"
 #include <stdio.h>
 #include <stdlib.h>
