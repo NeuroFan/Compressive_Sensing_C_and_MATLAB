@@ -42,7 +42,7 @@ float sign(float input)
 int main()
 {
 
-
+//First we generate some test data for reconstruction part
 	float A[M][N];
 	int i,j,k,K;
 	int d;
@@ -90,6 +90,7 @@ int main()
 	for (i = 0; i < M; i++)
 		r[i] = Y[i];
 
+	//Reconstruction begins here
 int ii,iii;
 printf("Algorithm Starts here:\n");
 for (iii=0;iii<10;iii++)
