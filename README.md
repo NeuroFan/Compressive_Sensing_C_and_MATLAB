@@ -1,6 +1,5 @@
-Three well-known Sparse Recovery Algorithms i.e. :
+Three well-known Sparse Recovery Algorithms i.e. I.Orthogonal Matching Persuits, II.Iterative Hard Thresholding and III.Approximage Message Passing, implemented in both MATLAB and C. 
 
-1.Orthogonal Matching Persuits, 2.Iterative Hard Thresholding and 3.Approximage Message Passing, implemented in both MATLAB and C. 
 
 If you used the code please cite the following paper:
 
