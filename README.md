@@ -26,7 +26,7 @@ An excerpt from our paper:
       OMP [27], [28]. These issues are rather strong practical
       arguments for flexible designs. 
 
-      ![alt text]( https://github.com/NeuroFan/Compressive_Sensing/blob/master/performance_comparison.png)
+  ![alt text]( https://github.com/NeuroFan/Compressive_Sensing/blob/master/performance_comparison.png)
 
 
 
