@@ -1,4 +1,4 @@
-Three well-known Sparse Recovery Algorithms implemented in C and MATLAB:
+Three well-known Sparse Recovery Algorithms implemented in C/C++ and MATLAB:
 
 
       I. Orthogonal Matching Persuits ( OMP ),
