@@ -7,7 +7,7 @@ Three well-known Sparse Recovery Algorithms implemented in C and MATLAB:
 
 If you used the code please cite our paper [1].
 
-An excerpt from our paper:
+Important excerpts from the paper:
 
 
       For fair comparison of the algorithms, one must take into
