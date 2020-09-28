@@ -10,8 +10,21 @@ If you used the code please cite our paper [1].
 An excerpt from our paper:
 
 
-      "For fair comparison of the algorithms, one must take into consideration the window length of the signal, the sparsity degree of the test signal, the hyperparameters of the        algorithms, such as termination criteria and desired reconstruction quality. From Fig. 4 in [1], we observed that the OMP algorithm is fastest in
-      reconstruction, whereas the AMP and IHT algorithms that are known to be computationally cheaper, appear to be slower. This is due to the low sparsity degree and short signal       length. The OMP algorithm gives better performance for less sparse signals, and here the experiments were done with signals with less than 10% occupancy. The IHT algorithm’s       performance is relatively independent from the sparsity degree, and the performance of AMP is less sensitive to sparsity degree than the OMP. These issues are rather strong        practical arguments for flexible designs."
+      For fair comparison of the algorithms, one must take into
+      consideration the window length of the signal, the sparsity
+      degree of the test signal, the hyperparameters of the algorithms,
+      such as termination criteria and desired reconstruction quality.
+      From Fig. 4, we observed that the OMP algorithm is fastest in
+      reconstruction, whereas the AMP and IHT algorithms that are
+      known to be computationally cheaper, appear to be slower. This
+      is due to the low sparsity degree and short signal length. The
+      OMP algorithm gives better performance for less sparse signals
+      [27], and here the experiments were done with signals with less
+      than 10% occupancy. The IHT algorithm’s performance is
+      relatively independent from the sparsity degree, and the
+      performance of AMP is less sensitive to sparsity degree than the
+      OMP [27], [28]. These issues are rather strong practical
+      arguments for flexible designs. 
 
 
 Reference 
