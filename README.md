@@ -28,7 +28,10 @@ Important excerpts from the paper:
 
   ![alt text]( https://github.com/NeuroFan/Compressive_Sensing/blob/master/performance_comparison.png)
 
-
+Please note :
+      In the case of the IHT algorithm, a different flavor of
+      algorithm called Normalized-IHT was implemented, where the
+      step size is automatically determined in each iteration.
 
 *Reference* 
 
