@@ -14,7 +14,7 @@ An excerpt from our paper:
       consideration the window length of the signal, the sparsity
       degree of the test signal, the hyperparameters of the algorithms,
       such as termination criteria and desired reconstruction quality.
-      From Fig. 4, we observed that the OMP algorithm is fastest in
+      From Fig. 4 [following figure], we observed that the OMP algorithm is fastest in
       reconstruction, whereas the AMP and IHT algorithms that are
       known to be computationally cheaper, appear to be slower. This
       is due to the low sparsity degree and short signal length. The
@@ -25,6 +25,9 @@ An excerpt from our paper:
       performance of AMP is less sensitive to sparsity degree than the
       OMP [27], [28]. These issues are rather strong practical
       arguments for flexible designs. 
+
+      ![alt text]( https://github.com/NeuroFan/Compressive_Sensing/blob/master/performance_comparison.png)
+
 
 
 *Reference* 
