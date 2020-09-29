@@ -1,7 +1,7 @@
 Three well-known Sparse Recovery Algorithms implemented in C/C++ and MATLAB:
 
 
-      I. Orthogonal Matching Persuits ( OMP ),
+      I. Orthogonal Matching Pursuit ( OMP ),
       II. Iterative Hard Thresholding ( IHT ),  
       III. Approximage Message Passing ( AMP )  
 
