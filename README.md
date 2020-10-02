@@ -33,6 +33,9 @@ Please note :
       algorithm called Normalized-IHT was implemented, where the
       step size is automatically determined in each iteration.
 
+You can find the paper in this repository or through following link:
+https://github.com/NeuroFan/Compressive_Sensing/blob/master/An%20Embedded%20Programmable%20Processor%20for%20Compressive.pdf
+
 *Reference* 
 
 [1] M. Safarpour, I. Hautala and O. Silvén, "An Embedded Programmable Processor for Compressive Sensing Applications," 2018 IEEE Nordic Circuits and Systems Conference (NORCAS): NORCHIP and International Symposium of System-on-Chip (SoC), Tallinn, Estonia, 2018, pp. 1-5.
