@@ -7,31 +7,19 @@ Three well-known Sparse Recovery Algorithms implemented in C/C++ and MATLAB:
 # Introduction 
 Excerpts are from our paper [1].
 
-      OMP is a greedy algorithm introduced as an extension to the
-      well-established Matching Pursuit algorithm. The OMP
-      algorithm iteratively finds the best matrix columns that
-      correspond to the non-zero coefficients of the sparse signal, and
-      then performs a least squares (LS) optimization in the subspace
-      formed from current and previously selected columns.
-      AMP and the IHT algorithms do not require LS in each
-      iteration, and instead perform simple vector truncation, which
-      results in an iterative completion of the sparse signal. The
-      parameters, such as step size and threshold, are critical in the
-      performance of AMP and IHT algorithms. The optimum
-      parameters of AMP are chosen based on the experimental results
-      of . In the case of the IHT algorithm, a different flavor of
-      algorithm called Normalized-IHT was implemented, where the
-      step size is automatically determined in each iteration.
+      OMP is a greedy algorithm introduced as an extension to the well-established Matching Pursuit algorithm. The OMP
+      algorithm iteratively finds the best matrix columns that correspond to the non-zero coefficients of the sparse signal, and
+      then performs a least squares (LS) optimization in the subspace formed from current and previously selected columns. AMP and the IHT algorithms do not require LS in each iteration, and instead perform simple vector truncation, which results in an iterative completion of the sparse signal. The
+      parameters, such as step size and threshold, are critical in the performance of AMP and IHT algorithms. The optimum
+      parameters of AMP are chosen based on the experimental results of . In the case of the IHT algorithm, a different flavor of
+      algorithm called Normalized-IHT was implemented, where the step size is automatically determined in each iteration.
       
 
 # Results
 
-      For fair comparison of the algorithms, one must take into
-      consideration the window length of the signal, the sparsity
-      degree of the test signal, the hyperparameters of the algorithms,
-      such as termination criteria and desired reconstruction quality.
-      From Fig. 4 [following figure], we observed that the OMP algorithm is fastest in
-      reconstruction, whereas the AMP and IHT algorithms that are
+      For fair comparison of the algorithms, one must take into consideration the window length of the signal, the sparsity
+      degree of the test signal, the hyperparameters of the algorithms, such as termination criteria and desired reconstruction quality.
+      From Fig. 4 [following figure], we observed that the OMP algorithm is fastest in reconstruction, whereas the AMP and IHT algorithms that are
       known to be computationally cheaper, appear to be slower. 
       
  ![alt text]( https://github.com/NeuroFan/Compressive_Sensing/blob/master/performance_comparison.png)
