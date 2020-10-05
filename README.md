@@ -4,7 +4,7 @@ Three well-known Sparse Recovery Algorithms implemented in C/C++ and MATLAB:
       I. Orthogonal Matching Pursuit ( OMP ),
       II. Iterative Hard Thresholding ( IHT ),  
       III. Approximage Message Passing ( AMP )  
-#Introduction 
+# Introduction 
 
       OMP is a greedy algorithm introduced as an extension to the
       well-established Matching Pursuit algorithm [17]. The OMP
@@ -23,7 +23,7 @@ Three well-known Sparse Recovery Algorithms implemented in C/C++ and MATLAB:
       step size is automatically determined in each iteration.
       Important excerpts from the paper:
 
-#Comparison Results
+# Results
 
       For fair comparison of the algorithms, one must take into
       consideration the window length of the signal, the sparsity
@@ -31,8 +31,12 @@ Three well-known Sparse Recovery Algorithms implemented in C/C++ and MATLAB:
       such as termination criteria and desired reconstruction quality.
       From Fig. 4 [following figure], we observed that the OMP algorithm is fastest in
       reconstruction, whereas the AMP and IHT algorithms that are
-      known to be computationally cheaper, appear to be slower. This
-      is due to the low sparsity degree and short signal length. The
+      known to be computationally cheaper, appear to be slower. 
+      
+ ![alt text]( https://github.com/NeuroFan/Compressive_Sensing/blob/master/performance_comparison.png)
+
+      
+      This is due to the low sparsity degree and short signal length. The
       OMP algorithm gives better performance for less sparse signals
       [27], and here the experiments were done with signals with less
       than 10% occupancy. The IHT algorithm’s performance is
@@ -41,7 +45,6 @@ Three well-known Sparse Recovery Algorithms implemented in C/C++ and MATLAB:
       OMP [27], [28]. These issues are rather strong practical
       arguments for flexible designs. 
 
-  ![alt text]( https://github.com/NeuroFan/Compressive_Sensing/blob/master/performance_comparison.png)
 
 #Citation 
 
