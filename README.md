@@ -5,7 +5,7 @@ Three well-known Sparse Recovery Algorithms implemented in C/C++ and MATLAB:
       II. Iterative Hard Thresholding ( IHT ),  
       III. Approximage Message Passing ( AMP )  
 # Introduction 
-Excerpts are from our paper[1].
+Excerpts are from our paper [1].
 
       OMP is a greedy algorithm introduced as an extension to the
       well-established Matching Pursuit algorithm. The OMP
