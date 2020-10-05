@@ -28,14 +28,11 @@ Excerpts are from our paper [1].
  ![alt text]( https://github.com/NeuroFan/Compressive_Sensing/blob/master/performance_comparison.png)
 
       
-      This is due to the low sparsity degree and short signal length. The
-      OMP algorithm gives better performance for less sparse signals
-      [27], and here the experiments were done with signals with less
-      than 10% occupancy. The IHT algorithm’s performance is
-      relatively independent from the sparsity degree, and the
-      performance of AMP is less sensitive to sparsity degree than the
-      OMP [27], [28]. These issues are rather strong practical
-      arguments for flexible designs. 
+      This is due to the low sparsity degree and short signal length. The OMP algorithm gives better performance for
+      less sparse signals [27], and here the experiments were done with signals with less than 10% occupancy. 
+      The IHT algorithm’s performance is relatively independent from the sparsity degree, and the performance of
+      AMP is less sensitive to sparsity degree than the  OMP,. These issues are rather strong practical arguments 
+      for flexible designs. 
 
 
 # Citation 
