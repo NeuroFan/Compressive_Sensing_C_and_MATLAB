@@ -4,7 +4,7 @@ Three well-known Sparse Recovery Algorithms implemented in C/C++ and MATLAB:
       I. Orthogonal Matching Pursuit ( OMP ),
       II. Iterative Hard Thresholding ( IHT ),  
       III. Approximage Message Passing ( AMP )  
-Further the C code ontains all subroutins that includes: QR decompostion, Gausian elimination, bubble-sort, back-substitution, etc.
+Notice AMP need intitial coefficients that were taken from Baranuik's work. Further the C code ontains all subroutins that includes: QR decompostion, Gausian elimination, bubble-sort, back-substitution, etc.
 						         Matrix multipications, correlation computations
 							 SNR, MSE 
 
